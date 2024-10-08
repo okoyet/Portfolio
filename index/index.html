@@ -1,0 +1,377 @@
+<!-- Creation of Portfolio -->
+<!-- Tochukwu Collins Okoye -->
+<!-- 10/7/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Part one = My Profile: -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Welcome to my Portfolio</title> <!-- Title of the page -->
+  <link rel="stylesheet" href="style.css"> <!-- Link your style.css -->
+  <link rel="stylesheet" href="mediaqueries.css"> <!-- Link your mediaqueries.css -->
+</head>
+<body style="background-color: lightblue;"> <!-- Add colour of the background of the page-->
+  <header>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- New Message placed on the top and center of the page: -->
+    <h4>꧁☆★ 𝒲ℯ𝓁𝒸ℴ𝓂ℯ 𝓉ℴ 𝓂𝓎 𝒫ℴ𝓇𝓉𝒻ℴ𝓁𝒾ℴ! ★☆꧂</h4>
+
+    <nav id="page-nav">
+      <div class="logo"> Tochukwu Collins Okoye </div> 
+      <div class="page-menu">
+        <div class="page-icon" onclick="toggleMenu()">
+        </div>
+      </div>
+      <div class="page-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="profile">
+        <div class="section__pic-container"> 
+            <img src="profile-pic.jpg" alt="Collins's profile picture" /> 
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title"> Tochukwu Collins Okoye</h1>
+            <p class="section__text__p2"> Web Developer, Software Developer </p> 
+              <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('Resume.pdf')"> Resume </button> 
+                <button class="btn btn-color-2" onclick="window.open('Cover Letter.pdf')"> Cover Letter </button> 
+                <!--<button class="btn btn-color-2" onclick="window.open('')"> Computer Science </button>--> <!-- Add Course name + course list:-->
+                <button class="btn btn-color-2" onclick="location.href='./#contact'"> Contact Info </button> 
+              </div>
+              <div id="socials-container">
+                <a href="https://www.linkedin.com/in/tochukwuokoye/" target="_blank">
+                  <img src="linkedin.png" alt="My LinkedIn profile" class="icon"/> 
+                </a> <!-- Add image of Linkedin --> <!-- Add link to your Linkedin-->
+                
+                <a href="https://github.com/okoyet" target="_blank">
+                  <img src="github.png" alt="My GitHub profile" class="icon"/> 
+                </a> <!-- Add image of GitHub --> <!-- Add link to your Git-hub -->
+              </div>
+          </div>
+    </section>
+
+    <!-- Part 2: More information about me: -->
+    <section id="about">
+        <p class="section__text__p1"> Get to Know Me:</p>
+        <h1 class="title"> ABOUT ME</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img src="profile-pic2.jpg" alt="Profile picture" class="about-pic"/> <!-- Add profile image #2 -->
+          </div>
+  
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                  <img src="experience.png" alt="Experience icon" class="icon"/> <!-- Add experience image -->
+                  <h3> 𝐸𝑥𝑝𝑒𝑟𝑖𝑒𝑛𝑐𝑒 </h3>
+                  <p> Html, Css, Python, Javascript, Java, Sql, Node.js, Angular.js </React><br/></p> <!-- Add all your programming languages -->
+                  <p>  <br/></p> <!-- Add more programming languages -->
+                </div>
+  
+                <div class="details-container">
+                  <img src="education.png" alt="Education icon" class="icon"/> <!-- Add education image -->
+                  <h3> 𝐸𝑑𝑢𝑐𝑎𝑡𝑖𝑜𝑛 </h3>
+                  <p> Senior Secondary Certificate (2015-2021) <br /></p> <!-- Add High School Diploma -->
+                  <p> Ontario Advanced Diploma (2023-2026) <br /></p> <!-- Add College Diploma -->
+                </div>
+              </div>
+              <div class="text-container">
+                <p> Hello, I'm Tochukwu Collins Okoye, an international student from Nigeria. 
+                  I'm currently pursuing an advanced diploma in software development with a focus on 
+                  front-end development at Sheridan College.<br>
+                  My journey into the world of software development began in Nigeria, 
+                  where I developed a strong interest in technology and its potential to drive innovation and 
+                  solve real-world problems. This led me to choose Sheridan College for its 
+                  cutting-edge curriculum and vibrant learning environment. <br></p> <!-- Add information about yourself -->
+              </div>
+            </div>
+          </div>
+          <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+
+    <!-- Part 3: My Experience -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title"> Front-end Web Development </h2>  <!-- Add your back-end skills -->
+              <div class="article-container">
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>PYTHON</h3> <!-- Add your front-end skills -->
+                    <p> Experienced </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>Database</h3> <!-- Add your front-end skills -->
+                    <p> Basic </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>JAVASCRIPT</h3> <!-- Add your front-end skills -->
+                    <p> Basic </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>ANGULAR.JS</h3> <!-- Add your front-end skills -->
+                    <p> Basic </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>HTML</h3> <!-- Add your front-end skills -->
+                    <p> Experienced </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>CSS</h3> <!-- Add your front-end skills -->
+                    <p> Experienced </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title"> Back-end Web Development </h2>
+              <div class="article-container">
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>PYTHON</h3> <!-- Add your back-end skills -->
+                    <p> Experienced </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>JAVA</h3> <!-- Add your back-end skills -->
+                    <p> Experienced </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>JAVASCRIPT</h3> <!-- Add your back-end skills -->
+                    <p> Basic </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+                <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>SQL</h3> <!-- Add your back-end skills -->
+                  <p> Basic </p> <!-- Add your skill level -->
+                </div>
+              </article>
+                <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3> Git </h3> <!-- Add your back-end skills -->
+                    <p> Basic </p> <!-- Add your skill level -->
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+
+    <!-- Part 4: My Projects -->
+    <section id="projects">
+        <p class="section__text__p1"> Brows my recent projects: </p>
+        <h1 class="title"> PROJECTS:</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+            <!-- Project #1: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 1" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #1:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo <!-- Add link to github for the project server -->
+                </button>
+              </div>
+            </div>
+
+            <!-- Project #2: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 2" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #2:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo <!-- Add link to github for the project server -->
+                </button>
+              </div>
+            </div>
+
+            <!-- Project #3: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 3" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #3:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''">  ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo  <!-- Add link to github for the project server -->
+                </button>
+              </div>
+            </div>
+
+             <!-- Project #4: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 4" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #4:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo <!-- Add link to github for the project server -->
+                </button>
+              </div>
+            </div>
+
+             
+            <!-- Project #5: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 5" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #5:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo <!-- Add link to github for the project server -->
+                </button>
+              </div>
+            </div>
+            
+            <!-- Project #6: -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="" alt="Project 6" class="project-img"/> <!-- Add image of project -->
+              </div>
+              <h2 class="experience-sub-title project-title">Project #6:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> ... <!-- Add link to project --> <!-- Add name of project-->
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn" onclick="location.href=''"> Live Demo <!-- Add link to github for the project server -->
+                </button>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+          <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#certificates'"/>
+    </section>
+
+    <!-- Part 5: My Certificates -->
+    <section id="certificates" style="margin-bottom: 60px;">
+       <p class="section__text__p1"> 𝑀𝓎 𝒸𝑜𝓂𝓅𝓊𝓉𝑒𝓇 𝓈𝒸𝒾𝑒𝓃𝒸𝑒 𝒸𝑒𝓇𝓉𝒾𝒻𝒾𝒸𝒶𝓉𝑒𝓈 </p>
+       <h1 class="title"> My hands-on experience certificates: </h1>
+        <div class="certificate-container">
+          <a href="certificate-of-completion-for-ccna-ip-addressing-and-subnetting-practical-exam-prep.pdf" target="_blank"> <!-- Add link to certificate -->
+          <img src="Screenshot 2024-10-07 200141.png" alt="Certificate 1" class="certificate-img"/> <!-- Add image of certificate -->
+          </a>
+
+          <a href="Introduction_to_Cybersecurity_Badge20230610-28-40cgf.pdf" target="_blank"> <!-- Add link to certificate -->
+            <img src="Screenshot 2024-10-07 201058.png" alt="Certificate 1" class="certificate-img"/> <!-- Add image of certificate -->
+          </a>
+
+          <a href="collinsokoye0096@gmail.com - IPv6 Fundamentals Course - IPv6 Fundamentals - APNIC Academy.pdf" target="_blank"> <!-- Add link to certificate -->
+            <img src="Screenshot 2024-10-07 200338.png" alt="Certificate 1" class="certificate-img"/> <!-- Add image of certificate -->
+          </a>
+
+       </div>
+    </section>
+  </main>
+
+   <!-- Part 6: My Contacts -->
+   <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div>
+        <a href="mailto:okoyet@sheridancollege.ca">
+          <img src="email.png" alt="Email icon" class="icon contact-icon email-icon"/> 
+        </a> <!-- Add your email -->
+      </div>
+      
+      <div class="contact-info-container">
+        <a href="https://www.linkedin.com/in/tochukwuokoye/" target="_blank">
+          <img src="linkedin.png" alt="My LinkedIn profile" class="icon"/> 
+        </a> <!-- Add image of Linkedin --> <!-- Add link to your Linkedin-->
+      </div>
+    </div>
+   </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Tochukwu Collins Okoye All Rights Reserved.</p> <!-- Add your name here -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
