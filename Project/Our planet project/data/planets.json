@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Mercury",
+        "url": "https://www.britannica.com/place/Mercury-planet",
+        "distance": 57909227,
+        "radius": 2439.7,
+        "day": 175.9,
+        "gravity": 370,
+        "moons": 0,
+        "img": "mercury.jpg"
+    },
+    {
+        "name": "Venus",
+        "url": "https://www.britannica.com/place/Venus-planet",
+        "distance": 108209475,
+        "radius": 6051.8,
+        "day": 243,
+        "gravity": 887,
+        "moons": 0,
+        "img": "venus.jpg"
+    },
+    {
+        "name": "Earth",
+        "url": "https://www.britannica.com/place/Earth",
+        "distance": 148950000,
+        "radius": 6371,
+        "day": 1,
+        "gravity": 980.665,
+        "moons": "1",
+        "img": "earth.jpg"
+    },
+    {
+        "name": "Mars",
+        "url": "https://www.britannica.com/place/Mars-planet",
+        "distance": 227943824,
+        "radius": 3396.2,
+        "day": 1.027,
+        "gravity": "371",
+        "moons": "2",
+        "img": "mars.png"
+    },
+    {
+        "name": "Jupiter",
+        "url": "https://www.britannica.com/place/Jupiter-planet",
+        "distance": 778340821,
+        "radius": 71492,
+        "day": 0.414,
+        "gravity": 2479,
+        "moons": 66,
+        "img": "jupiter.jpg"
+    },
+    {
+        "name": "Saturn",
+        "url": "https://www.britannica.com/place/Saturn-planet",
+        "distance": 1426666000,
+        "radius": 60268,
+        "day": 0.44,
+        "gravity": 896,
+        "moons": 62,
+        "img": "saturn.jpg"
+    },
+    {
+        "name": "Uranus",
+        "url": "https://www.britannica.com/place/Uranus-planet",
+        "distance": 2870758000,
+        "radius": 25559,
+        "day": 0.718,
+        "gravity": 887,
+        "moons": 27,
+        "img": "uranus.jpg"
+    },
+    {
+        "name": "Neptune",
+        "url": "https://www.britannica.com/place/Neptune-planet",
+        "distance": 4498396000,
+        "radius": 24764,
+        "day": 0.671,
+        "gravity": 1115,
+        "moons": 14,
+        "img": "neptune.jpg"
+    }
+]

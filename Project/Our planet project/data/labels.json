@@ -1,0 +1,9 @@
+{
+    "name": "Name",
+    "url": "URL",
+    "distance": "Distance from Sun (km)",
+    "radius": "Radius (mean, km)",
+    "day": "Mean Solar Day (Earth days)",
+    "gravity": "Mean Surface Gravity (cm/sec^2)",
+    "moons": "Number of Known Moons"
+}

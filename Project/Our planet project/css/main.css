@@ -1,0 +1,108 @@
+/*
+Name:  Tochukwu Collins Okoye
+Assignment:  Assignment 5
+Date:  11/16/2023
+
+Page Description: This is the main CSS file for this application and defines
+all of the styles required for all pages in the app.
+Files: index.html, main.js, labels.json, planets.json
+*/
+
+:root {
+    --main: #003366;
+    --light: #e6f2ff;
+    --accent: #0059b3;
+}
+
+html {
+    background-image: linear-gradient(125deg,
+            hsl(210deg 100% 20%) 0%,
+            hsl(210deg 100% 19%) 14%,
+            hsl(210deg 100% 17%) 19%,
+            hsl(210deg 100% 15%) 24%,
+            hsl(210deg 100% 13%) 28%,
+            hsl(210deg 100% 11%) 32%,
+            hsl(209deg 100% 10%) 37%,
+            hsl(209deg 100% 9%) 43%,
+            hsl(209deg 100% 7%) 49%,
+            hsl(209deg 100% 6%) 57%,
+            hsl(209deg 100% 4%) 69%,
+            hsl(0deg 0% 0%) 100%);
+    color: white;
+}
+
+a:link,
+a:hover {
+    color: white;
+}
+
+a:visited,
+a:active {
+    color: var(--light);
+}
+
+body {
+    display: grid;
+    grid-template-areas: "head foot"
+        "main main"
+        "main main";
+}
+header {
+    grid-area: head;
+}
+footer {
+    grid-area: foot;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+    padding: .1em .5em;
+}
+
+h1 {
+    margin: .1em;
+}
+
+section {
+    padding: .2em .25em;
+}
+
+nav>button {
+    background: var(--accent);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: .25em .1em;
+    padding: .5em;    
+}
+
+nav>button:hover {
+    background-color: var(--main);
+}
+
+section:last-child {
+    height: 100vh;
+    padding: .25em;
+    width: 100%;
+}
+
+div>span:first-child {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        display: block;
+    }
+    main {
+        flex-direction: row;
+    }
+
+    nav>button {
+        display:block;
+        width: 100%;
+    }
+}
